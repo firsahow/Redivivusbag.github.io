@@ -1,1 +1,276 @@
 # Redivivusbag.github.io
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Berkontribusi pada upaya daur ulang  | Selamat datang di Redivivus</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css"> 
+	<link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+	
+  <body data-spy="scroll" data-target="#site-navbar" data-offset="200">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark site_navbar site-navbar-light" id="site-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">Redivivus</a>
+        <div class="collapse navbar-collapse" id="site-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#menu" class="nav-link">Manfaat</a></li>
+            <li class="nav-item"><a href="#produk" class="nav-link">Produk</a></li>
+            <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <section class="site-cover" style="background-image: url(images/bg_landing1.png); opacity: 70.0;" id="home">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center site-vh-100">
+          <div class="col-md-12">
+            <h1 class="site-heading site-animate">Distributor tas daur ulang terdepan di Indonesia!</h1>
+            <h2 class="h5 site-subheading mb-5 site-animate"> Kami menyediakan berbagai tas daur ulang dengan desain yang unik dan berkualitas tinggi. </h2>    
+            <p><a href="#produk" class="btn btn-outline-white btn-lg site-animate">Cek Sekarang</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Home -->
+    
+    <section class="site-section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 site-animate">
+            <h4 class="site-sub-title">Tentang Kami</h4>
+            <h2 class="site-primary-title display-4">Selamat Datang</h2>
+            <p>Redivivus adalah distributor tas daur ulang terkemuka di Indonesia. Kami menyediakan berbagai jenis tas daur ulang berkualitas tinggi yang diproduksi dengan menggunakan bahan-bahan yang terbuat dari sampah daur ulang. Dalam upaya untuk memperjuangkan gerakan daur ulang dan menjaga lingkungan, Redivivus memproduksi tas-tas yang ramah lingkungan yang dapat dipakai sehari-hari</p>
+
+            <p class="mb-4">Jangan lewatkan kesempatan untuk membeli tas daur ulang berkualitas tinggi dari Redivivus. Saat ini, Redivivus sedang melakukan Cuci Gudang, dimana kamu dapat membeli semua produk dengan diskon sebesar 50%. Ayo bergabunglah dengan Redivivus dalam upaya untuk menjaga lingkungan dan memilih solusi tas yang ramah lingkungan dan trendy.</p>
+          </div>
+          
+          <div class="col-md-6 site-animate site-vh-75" data-animate-effect="fadeInRight">
+            <img src="images/about-us.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Abous Us -->
+
+    <section class="site-section" id="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">Manfaat Tas</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Dari Sampah menjadi Karya dengan Daur Ulang</p>
+              </div>
+
+              <div class="faq-container">
+                <div class="faq">
+                  <img src="images/faq-1.jpg" alt="FAQ 1">
+                  <h3>Recycle</h3>
+                  <p>Mengurangi limbah dan menjaga lingkungan hidup yang lebih bersih dan sehat.</p>
+                </div>
+                <div class="faq">
+                  <img src="images/faq-2.jpg" alt="FAQ 2">
+                  <h3>Reduce</h3>
+                  <p>Memberikan kesempatan bagi reseller untuk memperoleh harga yang lebih murah dan membantu memperluas pasar kami.</p>
+                </div>
+                <div class="faq">
+                  <img src="images/faq-3.jpeg" alt="FAQ 3">
+                  <h3>Reuse</h3>
+                  <p>Mendukung gerakan daur ulang dan menjaga kelestarian lingkungan.</p>
+                </div>
+              </div>
+            </div>
+
+            <section class="site-section" id="produk">
+                <div class="container">
+                  <h2>Produk Kami</h2>
+                  <br> </br>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img src="images/faq-1.jpg" alt="Tas Daur Ulang">
+                    </div>
+                    <div class="col-md-4">
+                      <img src="images/.jpg" alt="">
+                    </div>
+                    <div class="col-md-4">
+                      <p class="harga">Rp 50.000</p>
+                      <p class="deskripsi">Tas daur ulang ini terbuat dari bahan-bahan yang ramah lingkungan dan tahan lama. Dengan membeli tas ini, Anda dapat membantu mengurangi sampah plastik dan memberikan dampak positif pada lingkungan.</p>
+                      <form method="post" action="">
+                        <input type="hidden" name="produk" value="Tas Daur Ulang">
+                        <input type="hidden" name="harga" value="50000">
+                        <input type="submit" name="submit" value="Beli Sekarang" class="btn btn-primary" onclick="window.open('https://www.youtube.com/watch?v=RIrARqvhe1Y', '_blank');">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              
+              
+     <!-- Ulasan Komentar -->
+<section id="ulasan">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Ulasan Komentar dari Pelanggan Kami</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Tas Belanja yang Cantik dan Ramah Lingkungan</h4>
+              <p class="card-text">Saya sangat senang dengan tas belanja yang saya beli di toko ini. Tasnya cantik dan modis, dan yang terbaik adalah tas ini terbuat dari bahan daur ulang yang ramah lingkungan. Saya suka membeli produk yang mendukung gerakan lingkungan, dan toko ini memang benar-benar memenuhi harapan saya. Terima kasih!</p>
+              <p class="card-text"><small class="text-muted">Diposting oleh <b>Danang</b> pada 4 mei 2023</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Tas yang Kuat dan Stylish</h4>
+              <p class="card-text">Tas daur ulang ini adalah pilihan terbaik bagi mereka yang ingin berkontribusi dalam menjaga lingkungan. Saya sangat terkesan dengan kualitas tasnya, terlihat sangat kuat dan tahan lama. Harga yang ditawarkan juga sangat terjangkau dan cocok untuk semua kalangan.</p>
+              <p class="card-text"><small class="text-muted">Diposting oleh <b>Asep</b> pada 1 mei 2023</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Styling CSS -->
+  <style>
+    #ulasan {
+      background-color: #f7f7f7;
+      padding: 60px 0;
+    }
+  
+    #ulasan h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  
+    #ulasan hr {
+      width: 100px;
+      border-top: 3px solid #8c8c8c;
+      margin: 0 auto 30px;
+    }
+  
+    .card-title {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  
+    .card-text {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .text-muted {
+      font-size: 16px;
+    }
+  </style>
+  
+
+    <!-- Form Kontak -->
+
+    <section class="site-section bg-light" id="kontak">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 text-center mb-5 site-animate">
+            <h2 class="display-4">Hubungi Kami</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-7">
+                <p class="lead">Silakan isi dan kirimkan formulir berikut dengan pertanyaan atau pernyataan kamu, dan kami akan senang hati menanggapi kamu segera mungkin. Terima kasih.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7 mb-5 site-animate">
+          <iframe width="0" height="0" name="dummyframe" id="dummyframe"></iframe>
+            <form action="proses.php" method="post" id="form_kontak" target="dummyframe">
+            <div class="form-group">
+                <label for="nama" class="sr-only">Name</label>
+                <input type="text" class="form-control" name="nama" placeholder="Nama" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input type="text" class="form-control" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <label for="message" class="sr-only">Message</label>
+                <textarea name="pesan" cols="30" rows="10" class="form-control" placeholder="tuliskan pesanmu" required></textarea>
+              </div>
+              <div class="form-group">
+              <input type="submit" class="btn btn-primary btn-lg" onclick="send()" id="kirim" value="Kirim">
+			      	<input type="reset" class="btn btn-primary btn-lg" onclick="reset()" id="reset" value="Reset">
+              </div>
+                  <script>
+	                    function send(){
+		                  swal ("Terkirim!", "Pesanmu akan segera kami tanggapi", "success")
+	                    }
+                  </script>
+            </form>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4 site-animate">
+            <iframe src="https://www.google.com/maps/embed/v1/view?key=API_KEY&q=Jl.%20H.%20Raya%20Gandaria%20Utara,%20Kec.%20Kby.%20Baru,%20Kota%20Jakarta%20Selatan,%20Daerah%20Khusus%20Ibukota%20Jakarta" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <p class="text-black">
+              Alamat: <br> Jl. Haji Raya No.142, RW 3, Village gundar, Bekasi, West Java 16424<br> <br>
+              Telepon/Whatsapp: <br> <a href="https://wa.link/wvr6vh" target="_blank"> +62-838-8693-509 </a><br><br>
+              Email: <br> <a href="mailto: Redivivus@gmail.com">Redivivus@gmail.com</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- END Kontak -->
+    
+
+    <footer class="site-footer site-bg-dark site-section">
+        </div>
+        <div class="row site-animate">
+           <div class="col-md-12 text-center">
+            <div class="site-footer-widget mb-4">
+              <ul class="site-footer-social list-unstyled ">
+				  <h5 style="color:#E3E3E3">Temukan juga kami di :</h5><br>
+                <li class="site-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="site-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="site-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+      </div>
+    </footer>
+
+    
+    
+
+   
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
